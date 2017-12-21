@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color:
+    #f7f7f7;
+}
+
+h1 {
+  color: #f7f7f7;
+  text-align: left;
+}
+
+div.container {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+header, footer {
+  padding: 1em;
+  color: white;
+  background-color: #3b5998;
+  clear: left;
+  text-align: center;
+}
+
+nav {
+  float: inherit;
+  max-width: 160px;
+  margin: 0;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+article {
+  margin-left: 170px;
+  border-left: 1px solid gray;
+  padding: 1em;
+  overflow: hidden;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #3b5998;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #3b5998;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 100px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
